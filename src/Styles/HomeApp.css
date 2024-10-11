@@ -5,3 +5,11 @@
     padding-top: 25px;
     background-position: center;
 }
+.homeAppScreen p{
+    text-align: left;
+    font-family: inter;
+    font-weight: 700;
+    color: #F5F5F5;
+    line-height: 24.2px;
+    font-size: 20px;
+}
