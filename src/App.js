@@ -18,7 +18,7 @@ function App() {
     // Get user data
     const user = tg.initDataUnsafe?.user;
     if (user) {
-      setUsername(user);
+      setUsername(user.username);
       
     }
 
