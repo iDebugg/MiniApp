@@ -2,7 +2,7 @@
     background-image: url(/src/assets/img/Untitled\ design_20240920_135452_0000.png);
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: 20px;
+    padding-top: 25px;
     background-position: center;
 }
 .loadingScreen h5{
@@ -12,6 +12,7 @@
     text-align: center;
     line-height: 43.57px;
     color: #ffff;
+    margin-bottom: 10px;
 }
 .loadingScreen h4{
     /* font-family: Inter; */

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css"
 import "../src/Components/Loader.jsx"
 import Loader from "../src/Components/Loader.jsx";
+import HomeApp from "./Pages/HomeApp.jsx";
 
 function App() {
   const [username, setUsername] = useState("");
@@ -34,8 +35,9 @@ function App() {
         <Loader />
       ) : (
         <>
-          <h1>Welcome to Telegram Mini App</h1>
-          <p>Username: {username}</p>
+        <HomeApp />
+          {/* <h1>Welcome to Telegram Mini App</h1>
+          <p>Username: {username}</p> */}
         </>
       )}
     </div>
