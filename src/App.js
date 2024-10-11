@@ -3,6 +3,7 @@ import "./App.css"
 
 function App() {
   const [username, setUsername] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const tg = window.Telegram.WebApp;
@@ -20,8 +21,12 @@ function App() {
     const user = tg.initDataUnsafe?.user;
     if (user) {
       setUsername(user.username);
-      
     }
+
+    // Simulate loading delay
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 4000); // You can adjust the timeout duration as needed
 
     return () => {
       tg.offEvent("mainButtonClicked");
@@ -30,8 +35,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Welcome to Telegram Mini App</h1>
-      <p>Username: {username}</p>
+      {isLoading ? (
+        <p>Loading...</p>
+      ) : (
+        <>
+          <h1>Welcome to Telegram Mini App</h1>
+          <p>Username: {username}</p>
+        </>
+      )}
     </div>
   );
 }
