@@ -16,6 +16,16 @@ function HomeApp() {
             {userData.firstName} {userData.lastName}
           </span>
         </div>
+        <div className="display-flex gap-5">
+          <div>
+            <h4>Ambassador  1/4 </h4>
+            <hr />
+          </div>
+          <div>
+            <h4>XP Reward</h4>
+            <h5>400,345</h5>
+          </div>
+        </div>
        
       </div>
     </div>
