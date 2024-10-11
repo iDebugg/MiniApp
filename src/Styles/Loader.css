@@ -4,3 +4,19 @@
     height: 100vh;
     background-position: center;
 }
+.loadingScreen h5{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 43.57px;
+    color: #ffff;
+}
+.loadingScreen h4{
+    /* font-family: Inter; */
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    line-height: 21.78px;
+    color: #4979D1;
+}
