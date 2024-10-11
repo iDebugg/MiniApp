@@ -32,6 +32,9 @@
     line-height: 24.2px;
     height: 26px;
 }
+.ambassadorAndXpReward{
+    justify-content: space-between;
+}
 .ambassador h4{
     color: #F5F5F5;
     font-size: 15px;
@@ -51,7 +54,7 @@
     font-family: inter;
     line-height: 14.52px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .reward h5{
     color: #F5F5F5;
