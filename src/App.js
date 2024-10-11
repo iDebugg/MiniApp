@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css"
 import "../src/Components/Loader.jsx"
 import Loader from "../src/Components/Loader.jsx";
+import ProfileImg from "./assets/img/17.png"
 
 function App() {
   const [username, setUsername] = useState("");
@@ -35,6 +36,7 @@ function App() {
       ) : (
         <>
           <h1>Welcome to Telegram Mini App</h1>
+          <img src={ProfileImg} alt="" />
           <p>Username: {username}</p>
         </>
       )}
