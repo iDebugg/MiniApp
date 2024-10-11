@@ -1,8 +1,11 @@
 import React from 'react'
+import "../Styles/HomeApp.css"
 
 function HomeApp() {
   return (
-    <div>HomeApp</div>
+    <div className='homeAppScreen'>
+        
+    </div>
   )
 }
 
