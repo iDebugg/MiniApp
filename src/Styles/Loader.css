@@ -20,3 +20,8 @@
     line-height: 21.78px;
     color: #4979D1;
 }
+.loadingScreen img {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
