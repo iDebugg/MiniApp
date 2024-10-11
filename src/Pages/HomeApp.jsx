@@ -8,7 +8,7 @@ function HomeApp() {
 
   return (
     <div className="homeAppScreen">
-      <h5>SoftNote ™ </h5>
+      {/* <h5>SoftNote ™ </h5> */}
       <div className="userDetails">
         <div className="nameAndProfileImg display: flex gap-3 mb-6">
           <img src={profileImg} alt="" />

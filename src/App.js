@@ -16,9 +16,9 @@ function App() {
     const user = tg.initDataUnsafe?.user;
     if (user) {
       setUserData({
-        username: user.username || "N/A",
-        firstName: user.first_name || "N/A",
-        lastName: user.last_name || "N/A",
+        username: user.username || "",
+        firstName: user.first_name || "",
+        lastName: user.last_name || "",
         profilePicUrl: user.photo_url || "",
       });
     }
