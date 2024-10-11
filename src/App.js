@@ -1,28 +1,32 @@
 import { useEffect, useState } from "react";
-import "./App.css"
-import "../src/Components/Loader.jsx"
+import "./App.css";
 import Loader from "../src/Components/Loader.jsx";
 import HomeApp from "./Pages/HomeApp.jsx";
 
 function App() {
   const [username, setUsername] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [profilePicUrl, setProfilePicUrl] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const tg = window.Telegram.WebApp;
     tg.ready();
 
-
     // Get user data
     const user = tg.initDataUnsafe?.user;
     if (user) {
-      setUsername(user.username);
+      setUsername(user.username || "N/A");
+      setFirstName(user.first_name || "N/A");
+      setLastName(user.last_name || "N/A");
+      setProfilePicUrl(user.photo_url || "");
     }
 
-    // Simulate loading delay
+   
     setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // You can adjust the timeout duration as needed
+    }, 4000); 
 
     return () => {
       tg.offEvent("mainButtonClicked");
@@ -35,9 +39,13 @@ function App() {
         <Loader />
       ) : (
         <>
-        <HomeApp />
-          {/* <h1>Welcome to Telegram Mini App</h1>
-          <p>Username: {username}</p> */}
+
+        {/* <HomeApp /> */}
+          
+          <p>Username: {username}</p>
+          <p>First Name: {firstName}</p>
+          <p>Last Name: {lastName}</p>
+          {profilePicUrl && <img src={profilePicUrl} alt="Profile" />}
         </>
       )}
     </div>
