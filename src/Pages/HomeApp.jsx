@@ -10,7 +10,7 @@ function HomeApp() {
     <div className="homeAppScreen">
       <h5>SoftNote ™ </h5>
       <div className="userDetails">
-        <div className="nameAndProfileImg display: flex gap-2">
+        <div className="nameAndProfileImg display: flex gap-3">
           <img src={profileImg} alt="" />
           <span>
             {userData.firstName} {userData.lastName}
