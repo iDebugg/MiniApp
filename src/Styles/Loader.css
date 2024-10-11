@@ -2,7 +2,7 @@
     background-image: url(/src/assets/img/Untitled\ design_20240920_135452_0000.png);
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: 20px;
+    padding-top: 20%;
     background-position: center;
 }
 .loadingScreen h5{
