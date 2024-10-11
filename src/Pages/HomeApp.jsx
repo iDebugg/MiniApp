@@ -1,5 +1,5 @@
 import React from 'react'
-import {useUserContext } from "../src/Store/UserContext.jsx";
+import {useUserContext } from "../Store/UserContext.jsx";
 import "../Styles/HomeApp.css"
 
 function HomeApp() {
