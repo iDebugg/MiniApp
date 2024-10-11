@@ -1,0 +1,6 @@
+.loadingScreen{
+    background-image: url(/src/assets/img/Untitled\ design_20240920_135452_0000.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}

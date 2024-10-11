@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css"
+import "../src/Components/Loader.jsx"
+import Loader from "../src/Components/Loader.jsx";
 
 function App() {
   const [username, setUsername] = useState("");
@@ -36,7 +38,7 @@ function App() {
   return (
     <div className="App">
       {isLoading ? (
-        <p>Loading...</p>
+        <Loader />
       ) : (
         <>
           <h1>Welcome to Telegram Mini App</h1>
