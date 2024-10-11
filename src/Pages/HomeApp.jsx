@@ -7,10 +7,9 @@ function HomeApp() {
 
   return (
     <div className='homeAppScreen'>
-    <h2>User Profile</h2>
-    <p>Username: {userData.username}</p>
-    <p>First Name: {userData.firstName}</p>
-    <p>Last Name: {userData.lastName}</p>
+    <p>{userData.firstName} {userData.lastName}</p>
+    {/* <p>First Name: {userData.firstName}</p>
+    <p>Last Name: {userData.lastName}</p> */}
     {userData.profilePicUrl && <img src={userData.profilePicUrl} alt="Profile" />}
 
     </div>
