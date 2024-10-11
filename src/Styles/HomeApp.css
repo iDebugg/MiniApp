@@ -2,7 +2,7 @@
     background-image: url(/src/assets/img/Untitled\ design_20240920_135452_0000.png);
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: 25px;
+    padding-top: 20px;
     background-position: center;
 }
 .homeAppScreen h5{
@@ -14,18 +14,21 @@
     color: #ffff;
     margin-bottom: 10px;
 }
+.userDetails{
+    padding-left: 12px;
+    padding-right: 12px;
+}
 .nameAndProfileImg img{
     width: 32px;
     height: 32px;
     border: 1px solid #F5F5F5;
     border-radius: 100px;
 }
-.nameAndProfileImg p{
+.nameAndProfileImg span{
     font-family: inter;
     font-weight: 700;
     color: #F5F5F5;
     font-size: 20px;
     line-height: 24.2px;
-    width: 155px;
     height: 24px;
 }

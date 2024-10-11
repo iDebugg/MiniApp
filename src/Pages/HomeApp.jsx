@@ -12,9 +12,9 @@ function HomeApp() {
       <div className="userDetails">
         <div className="nameAndProfileImg display: flex gap-2">
           <img src={profileImg} alt="" />
-          <p>
+          <span>
             {userData.firstName} {userData.lastName}
-          </p>
+          </span>
         </div>
        
       </div>
