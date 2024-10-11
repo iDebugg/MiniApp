@@ -11,13 +11,6 @@ function App() {
     const tg = window.Telegram.WebApp;
     tg.ready();
 
-    // Set up main button behavior
-    tg.MainButton.setText("Submit");
-    tg.MainButton.show();
-
-    tg.onEvent("mainButtonClicked", () => {
-      tg.sendData("Button clicked"); // Sends data back to bot
-    });
 
     // Get user data
     const user = tg.initDataUnsafe?.user;
