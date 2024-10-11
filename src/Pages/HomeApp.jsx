@@ -16,7 +16,7 @@ function HomeApp() {
             {userData.firstName} {userData.lastName}
           </span>
         </div>
-        <div className="ambassadorAndXpReward display: flex gap-5">
+        <div className="ambassadorAndXpReward display: flex justify-content: space-between">
           <div className="ambassador">
             <h4>Ambassador   1/4 </h4>
             <hr />

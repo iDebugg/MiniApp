@@ -34,22 +34,24 @@
 }
 .ambassador h4{
     color: #F5F5F5;
-    font-size: 12px;
+    font-size: 15px;
     font-family: inter;
     line-height: 14.52px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .ambassador hr{
-    height: 8px;
+    height: 10px;
     border-radius: 12px;
     width: 50px;
 }
 .reward h4{
     color: #F5F5F5;
-    font-size: 12px;
+    font-size: 15px;
     font-family: inter;
     line-height: 14.52px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .reward h5{
     color: #F5F5F5;
@@ -58,6 +60,7 @@
     line-height: 16.94px;
     font-weight: 600;
     border: 2px solid #F5F5F5;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 15px;
+    padding: 10px;
+    
 }
