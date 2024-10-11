@@ -46,7 +46,8 @@
 .ambassador hr{
     height: 10px;
     border-radius: 12px;
-    width: 50px;
+    width: 60%;
+    background: linear-gradient( #4979D1 100%, #4979D1 100%, #B5CFFE 100%);
 }
 .reward h4{
     color: #F5F5F5;
@@ -69,4 +70,13 @@
     padding-top: 5px;
     padding-bottom: 5px;
     
+}
+.horizontalLine{
+    width: 100px;
+    background: #1D222E;
+    border: 1px solid #7585A7;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
 }

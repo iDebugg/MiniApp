@@ -19,7 +19,7 @@ function HomeApp() {
         <div className="ambassadorAndXpReward display: flex">
           <div className="ambassador">
             <h4>Ambassador   1/4 </h4>
-            <hr />
+            <div className="horizontalLine"><hr /></div>
           </div>
           <div className="reward">
             <h4>XP Reward</h4>
