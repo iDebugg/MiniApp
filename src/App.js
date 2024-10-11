@@ -23,7 +23,6 @@ function App() {
       });
     }
 
-  
     setTimeout(() => {
       setIsLoading(false);
     }, 4000);
@@ -39,7 +38,7 @@ function App() {
         <Loader />
       ) : (
         <>
-            <HomeApp />
+          <HomeApp />
         </>
       )}
     </div>
