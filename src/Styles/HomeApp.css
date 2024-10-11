@@ -14,9 +14,18 @@
     color: #ffff;
     margin-bottom: 10px;
 }
-.nameAndProfileImg{
+.nameAndProfileImg img{
     width: 32px;
     height: 32px;
     border: 1px solid #F5F5F5;
     border-radius: 100px;
+}
+.nameAndProfileImg p{
+    font-family: inter;
+    font-weight: 700;
+    color: #F5F5F5;
+    font-size: 20px;
+    line-height: 24.2px;
+    width: 155px;
+    height: 24px;
 }
