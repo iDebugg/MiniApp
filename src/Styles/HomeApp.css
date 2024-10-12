@@ -188,7 +188,7 @@
    padding-top: 10px;
    text-align: center;
    border: 0.7px solid gray;
-   background: rgba(255, 255, 255, 0.065); /* Light transparent background */
+   background: rgba(255, 255, 255, 0.035); /* Light transparent background */
    backdrop-filter: blur(0.1px); /* Blur background for glass effect */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
    
