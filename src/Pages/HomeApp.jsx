@@ -152,7 +152,7 @@ function HomeApp() {
             />
           </svg>
 
-          <h5>Achievements<br />& Badges</h5>
+          <h5>Achievement<br />& Badges</h5>
         </div>
       </div>
     </div>

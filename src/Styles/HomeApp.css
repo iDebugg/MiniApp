@@ -90,15 +90,23 @@
  
     stroke: #E6ECF9;
 } */
-.start-the-rush svg {
- width: 50px;
-}
+.start-the-rush svg ,
+.power-up svg ,
+.daily-challenge svg ,
+.invite-and-earn svg ,
+.achivement-and-badge svg {
+ 
+    margin-bottom: 5px;
+  
+} 
+
 .bottom-actionBtn h5{
     font-weight: 500;
     font-size: 10px;
     font-family: inter;
     line-height: 12.91px;
     text-align: center;
+    color: #4979D1;
 }
 .bottom-actionBtn{
   display: flex;
@@ -107,6 +115,7 @@
   width: 100%;
   padding-left: 4px;
   padding-right: 4px;
+  
 
 }
 .box {
@@ -127,7 +136,9 @@
 .daily-challenge,
 .invite-and-earn,
 .achivement-and-badge{
- 
+    border-radius: 3px;
    height: 78px;
-   border: 2px solid gray;
+   align-items: center;
+   text-align: center;
+   border: 1px solid gray;
 } 
