@@ -36,7 +36,7 @@ function HomeApp() {
       </div>
 
       <div className="bottom-actionBtn display: flex gap-1">
-        <div className="start-the-rush">
+        <div className="box start-the-rush">
           <svg
             width="32"
             height="32"
@@ -57,7 +57,7 @@ function HomeApp() {
           </svg>
           <h5>Start<br />The Rush</h5>
         </div>
-        <div className="power-up">
+        <div className="box power-up">
           <svg
             width="32"
             height="32"
@@ -80,7 +80,7 @@ function HomeApp() {
           </svg>
           <h5>Power<br />Up</h5>
         </div>
-        <div className="daily-challenge">
+        <div className="box daily-challenge">
           <svg
             width="32"
             height="32"
@@ -104,7 +104,7 @@ function HomeApp() {
 
           <h5>Daily<br />Challenge</h5>
         </div>
-        <div className="invite-and-earn">
+        <div className="box invite-and-earn">
           <svg
             width="32"
             height="32"
@@ -120,7 +120,7 @@ function HomeApp() {
 
           <h5>Invite<br />& Earn</h5>
         </div>
-        <div className="achivement-and-badge">
+        <div className="box achivement-and-badge">
           <svg
             width="32"
             height="32"

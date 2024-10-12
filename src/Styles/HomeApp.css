@@ -101,10 +101,25 @@
     text-align: center;
 }
 .bottom-actionBtn{
-    bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
 
+}
+.box {
+    flex: 1; 
+    margin: 0 5px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+.container .box:first-child {
+    margin-left: 0;
+}
+  
+.container .box:last-child {
+    margin-right: 0;
 }
 .start-the-rush ,
 .power-up,
