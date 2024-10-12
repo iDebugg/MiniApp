@@ -4,6 +4,7 @@
     height: 100vh;
     padding-top: 20px;
     background-position: center;
+
 }
 .homeAppScreen h5{
     font-family: Inter;
@@ -80,3 +81,36 @@
     padding-bottom: 2px;
     padding-left: 2px;
 }
+
+/* .start-the-rush svg path,
+.power-up svg path,
+.daily-challenge svg path,
+.invite-and-earn svg path,
+.achivement-and-badge svg path{
+ 
+    stroke: #E6ECF9;
+} */
+.start-the-rush svg {
+ width: 50px;
+}
+.bottom-actionBtn h5{
+    font-weight: 500;
+    font-size: 12px;
+    font-family: inter;
+    line-height: 12.91px;
+    text-align: center;
+}
+.bottom-actionBtn{
+    bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.start-the-rush ,
+.power-up,
+.daily-challenge,
+.invite-and-earn,
+.achivement-and-badge{
+ 
+   height: 78px;
+} 
