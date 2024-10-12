@@ -35,7 +35,7 @@ function HomeApp() {
         </div>
       </div>
 
-      <div className="bottom-actionBtn display: flex">
+      <div className="bottom-actionBtn display: flex gap-1">
         <div className="start-the-rush">
           <svg
             width="32"
