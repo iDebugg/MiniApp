@@ -127,6 +127,7 @@
     padding: 5px;
     text-align: center;
     box-sizing: border-box;
+   
   }
 .container .box:first-child {
     margin-left: 0;
@@ -140,9 +141,13 @@
 .daily-challenge,
 .invite-and-earn,
 .achivement-and-badge{
-    border-radius: 3px;
+    border-radius: 5px;
    height: 78px;
    align-items: center;
    text-align: center;
-   border: 1px solid gray;
+   border: 0.7px solid gray;
+   backdrop-filter: blur(3.2px);
+-webkit-backdrop-filter: blur(3.2px);
+background: #1F2024;
+   
 } 
