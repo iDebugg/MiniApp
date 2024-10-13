@@ -2,11 +2,8 @@ import React from "react";
 import { useUserContext } from "../Store/UserContext.jsx";
 import "../Styles/HomeApp.css";
 import profileImg from "../assets/img/9230383-newImage.webp";
-import DollarSign from "../assets/img/DollarSign.svg";
-import Hammer from "../assets/img/fluent_people-community-add-28-filled.svg";
-import Taskplate from "../assets/img/TaskPlate.svg";
-import Earn from "../assets/img/Earn.svg";
-import Achievement from "../assets/img/Achievement.svg";
+import MASCOT from "../assets/img/CIRCLE.png"
+import COINS from '../assets/img/Coins.svg'
 
 function HomeApp() {
   const { userData } = useUserContext();
@@ -148,6 +145,10 @@ function HomeApp() {
         <h4>44 356 782</h4>
         </div>
         <h5>Platinum XP</h5>
+      </div>
+      <div className="click-action-pict">
+      <img src={MASCOT} alt="" className="click-action-image"/>
+      <img src={COINS} alt="" className="pulsating-image-coins"/>
       </div>
       <div className="bottom-actionBtn display: flex gap-0.5">
         <div className="box start-the-rush">
