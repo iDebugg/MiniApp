@@ -2,8 +2,9 @@ import React from "react";
 import { useUserContext } from "../Store/UserContext.jsx";
 import "../Styles/HomeApp.css";
 import profileImg from "../assets/img/9230383-newImage.webp";
-import MASCOT from "../assets/img/CIRCLE.png"
+import CIRCLE from "../assets/img/CIRCLE.png"
 import COINS from '../assets/img/Coins.svg'
+import MASCOT from "../assets/img/MASCOT NORMAL.png"
 
 function HomeApp() {
   const { userData } = useUserContext();
@@ -147,7 +148,9 @@ function HomeApp() {
         <h5>Platinum XP</h5>
       </div>
       <div className="click-action-pict">
-      <img src={MASCOT} alt="" className="click-action-image"/>
+      {/* <img src={MASCOT} alt="" className="avatar-image"/> */}
+      
+      <img src={CIRCLE} alt="" className="click-action-image"/>
       <img src={COINS} alt="" className="pulsating-image-coins"/>
       </div>
       <div className="bottom-actionBtn display: flex gap-0.5">
@@ -288,6 +291,7 @@ function HomeApp() {
           </h5>
         </div>
       </div>
+      
     </div>
   );
 }
